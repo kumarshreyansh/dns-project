@@ -1,7 +1,6 @@
 #Create a Bridge network
 1. sudo docker network create --subnet=172.20.0.0/16 kumar-example-net
-#Clone this repository with your linux machine
-2. git clone https://github.com/kumarshreyansh/dns-project.git
+2. git clone https://github.com/kumarshreyansh/dns-project.git #Clone this repository with your linux machine
 #Run below mentioned commands
 3. cd dns-project/
 4. sudo docker build -t bind9 .
